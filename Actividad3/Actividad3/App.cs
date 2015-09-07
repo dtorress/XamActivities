@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Xamarin.Forms;
 
 namespace Actividad3
@@ -9,9 +9,11 @@ namespace Actividad3
 		{	
 			return new ContentPage { 
 				Content = new Label {
-					Text = "Hello, Forms!",
-					VerticalOptions = LayoutOptions.CenterAndExpand,
-					HorizontalOptions = LayoutOptions.CenterAndExpand,
+					Text = "Hola, Xamarin Forms!",
+					VerticalOptions = LayoutOptions.EndAndExpand,
+					HorizontalOptions = LayoutOptions.StartAndExpand,
+					TextColor = Color.Green,
+					BackgroundColor = Color.White,
 				},
 			};
 		}
