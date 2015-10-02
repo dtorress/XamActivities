@@ -19,6 +19,7 @@ namespace Actividad6
 
 			boton.Clicked += (sender, e) => {
 				texto.Text = "haz hecho click en el botón";
+				texto.TextColor = Color.Green;
 			};
 
 			//Stacklayout permite apilar los controles verticalmente
