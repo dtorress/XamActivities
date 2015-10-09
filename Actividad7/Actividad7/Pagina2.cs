@@ -12,13 +12,22 @@ namespace Actividad7
 				TextColor = Color.Green
 			};
 
+			Button boton = new Button
+			{
+				Text = "Click para navegar a la página TRES"
+			};
+
+			boton.Clicked += (sender, e) => {
+				this.Navigation.PushAsync(new Pagina3());
+			};
+
 			//Stacklayout permite apilar los controles verticalmente
 			StackLayout stackLayout = new StackLayout
 			{
 				Children =
 				{
-					texto
-
+					texto,
+					boton
 				}
 			};
 
