@@ -11,5 +11,6 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Contenido.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Login.cs" />
   </ItemGroup>
 </Project>

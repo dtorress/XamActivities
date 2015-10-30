@@ -52,7 +52,4 @@ Global
 		{C58C2172-BB2F-4ECB-8B23-8622E9F283C9}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{C58C2172-BB2F-4ECB-8B23-8622E9F283C9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = iOS\Actividad10.iOS.csproj
-	EndGlobalSection
 EndGlobal
