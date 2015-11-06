@@ -33,8 +33,9 @@ namespace Actividad11
 
 			lista.Add (new Frutas{Nombre = "Platano", Imagen = "http://www.importancia.org/wp-content/uploads/platano.jpg"});
 			lista.Add (new Frutas{Nombre = "Pina", Imagen = "http://2.bp.blogspot.com/-Bw0n6k40hD0/T-yH2CGcHyI/AAAAAAAAAI8/kZEiZ_sbq2w/s1600/Pi%C3%B1a_con_hojaStevia.jpg"});
-
-
+			lista.Add (new Frutas{Nombre = "Kiwi", Imagen = "http://www.proto.gr/sites/www.proto.gr/files/styles/homepage-slideshow/public/images/fruits/kiwi.png"});
+			lista.Add (new Frutas{Nombre = "Fresas", Imagen = "http://freshkampo.com/images/productos/fresas.png"});
+			lista.Add (new Frutas{Nombre = "Sandia", Imagen = "http://www.semprecol.com/imagenes/fotosfichashort/sandia1.jpg"});
 			return lista;
 		}
 	}
